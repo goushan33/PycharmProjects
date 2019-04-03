@@ -10,7 +10,7 @@ import pandas as pd
 from scipy import sparse
 
 '''
-加入正则项的奇异值分解:RSVD
+加入偏置项的奇异值分解:baisRSVD
 '''
 #load data==========================================
 def load_data(path):
